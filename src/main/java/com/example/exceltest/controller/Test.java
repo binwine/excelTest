@@ -9,6 +9,7 @@ public class Test {
     }
     public static void perm(int[] array, Stack<Integer> stack) {
         String str = "";
+        String mm = "";
         if(array.length <= 0) {
             //进入了叶子节点，输出栈中内容
             for (Integer s : stack) {
