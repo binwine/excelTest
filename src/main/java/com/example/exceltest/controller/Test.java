@@ -6,6 +6,7 @@ public class Test {
 
     public static void main(String[] args) {
         perm(new int[]{2,5,4},new Stack<>());
+        System.out.println("mm");
     }
     public static void perm(int[] array, Stack<Integer> stack) {
         String str = "";
